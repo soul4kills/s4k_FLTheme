@@ -64,7 +64,7 @@
         <Setter Property="Cursor" Value="Arrow"/>
         <Setter Property="Foreground" Value="#73daca"/>
     </Style>
-    <!-- EDIT COLOR FOR SELECTION BACKGROUND, 44 ADDED IN FRONT FOR TRANSPARENCY -->
+    <!-- EDIT COLOR FOR SELECTION BACKGROUND, FIRST 2 DIGITS ARE ALPHA VALUES -->
     <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#70f7768e</SolidColorBrush>
     <Style x:Key="ItemImageSelectedStyle" BasedOn="{StaticResource BaseItemImageSelectedStyle}" TargetType="{x:Type Image}">
         <Setter Property="Cursor" Value="Arrow"/>
