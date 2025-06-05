@@ -251,7 +251,7 @@
         x:Key="PreviewBorderStyle"
         BasedOn="{StaticResource BasePreviewBorderStyle}"
         TargetType="{x:Type Border}">
-        <Setter Property="Margin" Value="0 0 0 0" />
+        <Setter Property="Margin" Value="0 0 10 0" />
         <Setter Property="BorderBrush" Value="#414868" />
     </Style>
 </ResourceDictionary>
