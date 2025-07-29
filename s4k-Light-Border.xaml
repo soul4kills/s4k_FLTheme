@@ -15,6 +15,7 @@
     <system:String x:Key="SystemBG">Light</system:String>
     <Color x:Key="LightBG">#80414868</Color>
     <Thickness x:Key="ResultMargin">0 0 0 0</Thickness>
+    <system:Double x:Key="ResultItemHeight">36</system:Double>
 
     <Style x:Key="WindowRadius" TargetType="{x:Type Border}">
         <Setter Property="CornerRadius" Value="5" />
@@ -60,7 +61,7 @@
         <!--Normal-Setter Property="BorderBrush" Value="#414868" /-->
         <Setter Property="CornerRadius" Value="7" />
         <Setter Property="Background">
-            <Setter.Value>                
+            <Setter.Value>
                 <SolidColorBrush Opacity="0.8" Color="#414868" />
                 <!--Dark-SolidColorBrush Opacity="0.8" Color="#1a1b2c" /-->
                 <!--SolidColorBrush Opacity="0.8" Color="#24283b" /-->
@@ -93,6 +94,7 @@
         BasedOn="{StaticResource BaseItemTitleStyle}"
         TargetType="{x:Type TextBlock}">
         <Setter Property="Foreground" Value="#a9b1dc" />
+        <Setter Property="FontSize" Value="13" />
     </Style>
 
     <Style
@@ -100,7 +102,7 @@
         BasedOn="{StaticResource BaseItemSubTitleStyle}"
         TargetType="{x:Type TextBlock}">
         <Setter Property="Foreground" Value="#787c99" />
-        <Setter Property="FontSize" Value="13" />
+        <Setter Property="FontSize" Value="8" />
     </Style>
 
     <Style
@@ -138,7 +140,7 @@
     <Style x:Key="HighlightStyle">
         <Setter Property="Inline.Foreground" Value="#f7768e" />
     </Style>
-        
+
     <Style
         x:Key="ItemHotkeyStyle"
         TargetType="{x:Type TextBlock}">
